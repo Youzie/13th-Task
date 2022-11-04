@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio_html</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="./js/main.js"></script>
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="modal" id="modal-gray" onclick="navToggle()"></div>
+    <div class="container header__inner">
+      <!-- ロゴ -->
+      <div class="header__logo">
+        <img src="images/BRONCO-Logo.svg" alt="Bronco">
+      </div>
+
+      <!-- ナビゲーション -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#hero" onclick="navToggle()">トップ</a></li>
+          <li class="nav__item"><a href="#new-article" onclick="navToggle()">新着記事</a></li>
+          <li class="nav__item"><a href="#career" onclick="navToggle()">キャリア</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="header__button" onclick="navToggle()">
+        <span class="sr-only">MENU</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- メイン -->
+  <main>
+    <!-- ヒーロー -->
+    <section id="hero">
+      <div class="hero__img-wrapper">
+        <h1 class="hero__title">もっと自由な働き方を</h1>
+        <div class="hero__img">
+          <img src="images/photo_02.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <div class="main-contents">
+      <div class="main-contents__inner">
+        
+        <!-- ピックアップニュース -->
+        <section id="pick-up-news" class="pick-up-section">
+          <a href="#">
+            <div class="pick-up">
+              <div class="pick-up__info">
+                <h3 class="pick-up-title">Pick Upニュースのタイトル</h3>
+                <p class="pick-up__posted-date">投稿日:2022/01/21</p>
+              </div>
+              <div class="pick-up__img">
+                <img src="./images/photo_03.jpg" alt="">
+              </div>              
+            </div>            
+          </a>
+        </section>
+
+        <!-- 新着記事 -->
+                
+        <section id="new-article">
+         <!-- 新着記事・タイトル -->
+          <div class="contents__title-wrapper">
+            <h2 class="contents__title">新着記事</h2>
+          </div>
+          <!-- 記事リスト -->
+          <div class="article__list">
+            <article class="article">
+              <div class="article--container">
+                <a href="#">
+                  <div class="article__img">
+                    <img src="images/photo_04.jpg" alt="">
+                  </div>
+                </a>
+                <div class="article__info">
+                  <a href="#">
+                    <h3>ここには素敵な見出しが入る予定ですよろしくお願いします</h3>
+                  </a>
+                  <p>ここには記事の本文が入るよてい。きっと素敵な文章が入るにちがいない。</p>
+                  <p class="posted-date">2022/01/15</p>
+                </div>
+              </div>
+            </article>
+            <article class="article">
+              <div class="article--container">
+                <a href="#">
+                  <div class="article__img">
+                    <img src="images/photo_04.jpg" alt="">
+                  </div>
+                </a>
+                <div class="article__info">
+                  <a href="#">
+                    <h3>ここには素敵な見出しが入る予定ですよろしくお願いします</h3>
+                  </a>
+                  <p>ここには記事の本文が入るよてい。きっと素敵な文章が入るにちがいない。</p>
+                  <p class="posted-date">2022/01/15</p>
+                </div>
+              </div>
+            </article>
+            <article class="article">
+              <div class="article--container">
+                <a href="#">
+                  <div class="article__img">
+                    <img src="images/photo_04.jpg" alt="">
+                  </div>
+                </a>
+                <div class="article__info">
+                  <a href="#">
+                    <h3>ここには素敵な見出しが入る予定ですよろしくお願いします</h3>
+                  </a>
+                  <p>ここには記事の本文が入るよてい。きっと素敵な文章が入るにちがいない。</p>
+                  <p class="posted-date">2022/01/15</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="all_articles_link">
+            <a href="#">全ての記事を見る→</a>
+          </div>
+        </section>
+
+        <!-- キャリア・セクション -->
+        <section id="career">
+          
+          <!-- キャリア・タイトル -->
+          <div class="contents__title-wrapper">
+            <h2 class="contents__title">キャリア</h2>
+          </div>
+          <!-- 記事リスト -->
+          <div class="career__list">
+            <article class="career__article">
+              <div class="article--container">
+                <a href="#">
+                  <div class="article__img">
+                    <img src="images/photo_05.jpg" alt="">
+                  </div>                  
+                </a>
+                <div class="article__info">
+                  <a href="#">
+                    <h3>ここには素敵な見出しが入る予定ですよろしくお願いします</h3>
+                  </a>
+                  <p>ここには記事の本文が入るよてい。きっと素敵な文章が入るにちがいない。</p>
+                  <p class="posted-date">2022/01/15</p>
+                </div>
+              </div>              
+            </article>
+            <article class="career__article">
+              <div class="article--container">
+                <a href="#">
+                  <div class="article__img">
+                    <img src="images/photo_05.jpg" alt="">
+                  </div>                  
+                </a>
+                <div class="article__info">
+                  <a href="#">
+                    <h3>ここには素敵な見出しが入る予定ですよろしくお願いします</h3>
+                  </a>
+                  <p>ここには記事の本文が入るよてい。きっと素敵な文章が入るにちがいない。</p>
+                  <p class="posted-date">2022/01/15</p>
+                </div>
+              </div>              
+            </article>
+            <article class="career__article">
+              <div class="article--container">
+                <a href="#">
+                  <div class="article__img">
+                    <img src="images/photo_05.jpg" alt="">
+                  </div>                  
+                </a>
+                <div class="article__info">
+                  <a href="#">
+                    <h3>ここには素敵な見出しが入る予定ですよろしくお願いします</h3>
+                  </a>
+                  <p>ここには記事の本文が入るよてい。きっと素敵な文章が入るにちがいない。</p>
+                  <p class="posted-date">2022/01/15</p>
+                </div>
+              </div>              
+            </article>
+            <article class="career__article">
+              <div class="article--container">
+                <a href="#">
+                  <div class="article__img">
+                    <img src="images/photo_05.jpg" alt="">
+                  </div>                  
+                </a>
+                <div class="article__info">
+                  <a href="#">
+                    <h3>ここには素敵な見出しが入る予定ですよろしくお願いします</h3>
+                  </a>
+                  <p>ここには記事の本文が入るよてい。きっと素敵な文章が入るにちがいない。</p>
+                  <p class="posted-date">2022/01/15</p>
+                </div>
+              </div>              
+            </article>
+            <article class="career__article">
+              <div class="article--container">
+                <a href="#">
+                  <div class="article__img">
+                    <img src="images/photo_05.jpg" alt="">
+                  </div>                  
+                </a>
+                <div class="article__info">
+                  <a href="#">
+                    <h3>ここには素敵な見出しが入る予定ですよろしくお願いします</h3>
+                  </a>
+                  <p>ここには記事の本文が入るよてい。きっと素敵な文章が入るにちがいない。</p>
+                  <p class="posted-date">2022/01/15</p>
+                </div>
+              </div>              
+            </article>                       
+          </div>
+          <div class="all_articles_link">
+            <a href="#">全ての新着記事を見る→</a>
+          </div>
+        </section>
+      </div>
+
+      <!-- サイドバー -->
+      <aside class="side-bar">
+        <div class="aside-container">
+          <!-- プロフィール・セクション -->
+        <div class="profile">
+          <div class="profile__info">
+            <div class="profile__img">
+              <img src="images/photo_08.jpg" alt="">
+            </div>
+            <div class="profile__text">
+              <p class="profile__name">管理者の名前</p>
+              <h6 class="self-introduction">自己紹介</h6>
+              <p>
+                ここには何か素敵な経歴に関する文章が入る予定です。百ワードくらいの文字数でしょうか。あまり長くても読まれないかもしれませんが自分のことを相手にわかってもらうためには大切なことです。
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- ランキング・セクション -->
+        <div class="ranking">
+          <div class="contents__title-wrapper ranking">
+            <h2 class="contents__title">ランキング</h2>
+          </div>
+          <div class="ranking__list">
+            
+            <article class="ranking__article">
+              <div class="ranking__img-wrapper">
+                <a href="#">
+                  <div class="ranking__img">
+                    <img src="images/photo_07.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="ranking__info">
+                <a href="#">
+                  <h5 class="ranking__article-title">ここには素敵な記事のタイトルが入ります</h5>
+                </a>
+                <p class="posted-date">2022/01/15</p>
+              </div>
+            </article>
+  
+            <article class="ranking__article">
+              <div class="ranking__img-wrapper">
+                <a href="#">
+                  <div class="ranking__img">
+                    <img src="images/photo_07.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="ranking__info">
+                <a href="#">
+                  <h5 class="ranking__article-title">ここには素敵な記事のタイトルが入ります</h5>
+                </a>
+                <p class="posted-date">2022/01/15</p>
+              </div>
+            </article>
+  
+            <article class="ranking__article">
+              <div class="ranking__img-wrapper">
+                <a href="#">
+                  <div class="ranking__img">
+                    <img src="images/photo_07.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="ranking__info">
+                <a href="#">
+                  <h5 class="ranking__article-title">ここには素敵な記事のタイトルが入ります</h5>
+                </a>
+                <p class="posted-date">2022/01/15</p>
+              </div>
+            </article>
+  
+            <article class="ranking__article">
+              <div class="ranking__img-wrapper">
+                <a href="#">
+                  <div class="ranking__img">
+                    <img src="images/photo_07.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="ranking__info">
+                <a href="#">
+                  <h5 class="ranking__article-title">ここには素敵な記事のタイトルが入ります</h5>
+                </a>
+                <p class="posted-date">2022/01/15</p>
+              </div>
+            </article>
+  
+          </div>
+        </div>
+        </div>               
+      </aside>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer__inner">
+      <div class="twitter-link">
+        <div class="container">
+          <p>ポートフォリオをTwitterで紹介しよう</p>
+          <a href="https://twitter.com/youzieseta?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @youzieseta</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="footer-menu-wrapper">
+        <ul class="footer-menu__list">
+          <il class="footer-menu-item"><a href="#">会社概要</a></il>
+          <il class="footer-menu-item"><a href="#">メディアについて</a></il>
+          <il class="footer-menu-item"><a href="#">お問い合わせ</a></il>
+          <il class="footer-menu-item"><a href="#">利用規約</a></il>
+          <il class="footer-menu-item"><a href="#">プライバシーポリシー</a></il>
+          <il class="footer-menu-item"><a href="#">よくあるご質問</a></il>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright"><small>&copy;2022 TechGeek .Inc</small></p>    
+  </footer>
+  
+</body>
+</html>
+
