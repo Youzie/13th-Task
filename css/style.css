@@ -156,17 +156,17 @@ body {
 }
 
 /* ▼sp版ナビゲーションメニュー挙動設定 */
-.open.header__button {
+.open .header__button {
   z-index: 100;
   color: #FFFFFF;
 }
 
-.open.header__button::before {
+.open .header__button::before {
   transform: translate(1px) rotate(45deg);
   box-shadow: none;
 }
 
-.open.header__button::after {
+.open .header__button::after {
   transform: translateY(-1px) rotate(-45deg);
 }
 
@@ -179,7 +179,7 @@ body {
     height: 100vh;
     background-color: #000000;
     color: #FFFFFF;
-    z-index: 2;
+    z-index: 200;
     transition: right 0.5s;
   }
 
